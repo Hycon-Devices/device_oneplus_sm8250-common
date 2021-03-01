@@ -48,4 +48,6 @@
     <!-- Burn-in protection -->
     <bool name="config_statusBarBurnInProtection">false</bool>
 
+    <!-- Max visible system icons -->
+    <integer name="config_maxVisibleStatusIconContainer">9</integer>
 </resources>
