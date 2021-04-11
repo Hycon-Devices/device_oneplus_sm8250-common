@@ -35,4 +35,8 @@
 
     <!-- This will sync FOD brightness with screen brightness. -->
     <bool name="config_fingerprintDimmingScreen">true</bool>
+
+    <!-- FPSInfoService FPS node file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps</string>
+
 </resources>
