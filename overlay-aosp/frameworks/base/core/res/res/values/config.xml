@@ -112,9 +112,6 @@
          Used to decide if we show pulse settings -->
     <bool name="config_ledCanPulse">false</bool>
 
-    <!-- Defines custom Vendor sensor for pocket detection. -->
-    <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>
-
     <!-- The list of components which should be automatically disabled for a specific device. -->
     <string-array name="config_deviceDisabledComponents" translatable="false">
         <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
@@ -129,5 +126,14 @@
 
     <!-- Whether device has a notch -->
     <bool name="config_haveNotch">true</bool>
+
+    <!-- FOD icon dim-->
+    <bool name="config_targetUsesInKernelDimming">true</bool>
+
+    <!-- Hide FOD ehile sleep -->
+    <bool name="config_hideFodCircleGoingToSleep">true</bool>
+
+    <!-- Face unlock -->
+    <bool name="config_faceAuthOnlyOnSecurityView">true</bool>
 
 </resources>
