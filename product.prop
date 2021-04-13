@@ -9,3 +9,6 @@ ro.sf.blurs_are_expensive=1
 
 # Google Assistant
 ro.opa.eligible_device=true
+
+# Use Vulkan backend for Skia UI rendering
+debug.hwui.renderer=skiavk
